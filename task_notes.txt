@@ -11,6 +11,7 @@ Tasks completed:
 Suggestions for further improvements:
 1. string of [30] char seems a little wasteful.. could possibly improve?
 2. add check for strings of +30 size
+3. free the memory 
 
 
 Suggested unit tests (tested but required alteration of code.. needs proper driver):
