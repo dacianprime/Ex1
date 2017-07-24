@@ -1,0 +1,30 @@
+Exercise 1 notes
+----------------
+
+Tasks completed:
+1. fixed bugs
+2. fixed code anomalies eg extern int main (extern by default not required), nonstandard function declarations, ternary operator removed
+3. moved function prototypes and struct declaration to header file
+4. tidied code and refactored to meaningful names
+5. added comments
+
+Suggestions for further improvements:
+1. string of [30] char seems a little wasteful.. could possibly improve?
+2. add check for strings of +30 size
+
+
+Suggested unit tests (tested but required alteration of code.. needs proper driver):
+1. As is
+2. Larger data set
+3. Empty string (various combinations ie at beginning, indespersed, at end)
+4. Empty dataset
+
+Build and Run Instructions
+at the command prompt:
+> make clean
+> make all
+>./ c_test_candidate
+
+Development Environment
+gcc 	4.8.3
+Make 	4
